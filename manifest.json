@@ -1,0 +1,20 @@
+{
+  "name": "H-Gen",
+  "description": "For stuff related to H-Gen.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://*.h-gen.xyz/*",
+	"*://dv1.phprcdn.com/*",
+	"*://cv.phprcdn.com/*",
+    "webRequestBlocking"
+  ],
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "browser_action": {}
+}
